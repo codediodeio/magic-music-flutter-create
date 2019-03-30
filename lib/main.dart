@@ -50,7 +50,7 @@ class MusicPageState extends State<MusicPage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(actions: [
+      appBar: AppBar(title: Text('MagicMusic'), actions: [
         Padding(
           padding: EdgeInsets.only(right: 20),
           child: IconButton(
